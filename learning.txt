@@ -1,0 +1,23 @@
+Topic --> CSS Combinators (https://www.w3schools.com/css/css_combinators.asp)
+
+1] Following selects all <p> elements inside <div> elements: 
+div p {
+  background-color: yellow;
+}
+
+2] Following selects all <p> elements that are children of a <div> element:
+div > p {
+  background-color: yellow;
+}
+
+3] Following selects the first <p> element that are placed immediately after <div> elements:
+div + p {
+  background-color: yellow;
+}
+
+4] Following selects all <p> elements that are next siblings of <div> elements: 
+div ~ p {
+  background-color: yellow;
+}
+
+-----------------------------------------------------------------------------------------------------------
