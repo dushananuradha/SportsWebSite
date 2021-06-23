@@ -1,9 +1,51 @@
-body {
-    background-color: rgba(248, 248, 214, 0.877);
+html {
+    height: 100%;
 }
 
-.mainImage {
-    width: 100%;
-    height: 30px;
-    width: 300px;
+@font-face {
+    font-family: myFont;
+    src: url(sansation_light.woff);
+}
+
+body {
+    background: linear-gradient(to bottom right, #ffccff 0%, #ffff99 100%);
+}
+
+/* .wrapper {
+    padding: 0;
+    margin: 0;
+   
+} */
+
+.container {
+    position: relative;
+}
+
+.main-image {
+    max-width: 100%;
+    max-height: 100%; 
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+
+.main-heading {
+    color: firebrick;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bolder;
+    font-size: 52px;
+    font-style:italic;
+    position: absolute;
+    top: 90%;
+    left: 0%;
+  
+
+}
+
+/* Responsive design styles */
+
+@media screen and (min-width:601px) {
+    .main-heading{
+        
+    }    
 }
