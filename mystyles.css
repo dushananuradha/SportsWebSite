@@ -28,7 +28,7 @@ body {
     max-height: 100%; 
     position: relative;
     top: -10px;
-    left: -10px;
+    left: -10px;m
 }
 
 .main-heading {
@@ -51,29 +51,42 @@ body {
 
 .flex-player-bio {
     display: flex;
-    position: absolute;
+    position: relative;
     width: fit-content;
+    flex-direction: row;
     flex-wrap: wrap;
     background-color: gainsboro;
     border: 1px solid black;
-    margin-left: -8px;
-}
-
-.flex-player-bio > div {
-    background-color: goldenrod;
-    position: relative;
-    width: 756px;
-    margin: 10px;
+    width: 40.6%;
+    margin: -5px;
     text-align:justify;
     line-height: 30px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     padding: 10px 10px;
+    
+}
+
+.flex-player-bio > p {
+    margin: 0px;
+    
+}
+
+.player-remarks {
+    color: maroon;
+   
 }
 /* Responsive design styles */
 
-@media screen and (max-width:1500px) {
+@media (max-width:1500px) {
     .main-heading {
         font-size: 30px;
     }    
 }
+
+@media (max-width: 1500px) {
+    .flex-player-bio {
+        font-size: 14px;
+        width: 50.6%;
+    }
+  }

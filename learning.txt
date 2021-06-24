@@ -21,3 +21,8 @@ div ~ p {
 }
 
 -----------------------------------------------------------------------------------------------------------
+
+Last day working on:
+1] https://www.w3schools.com/cssref/css3_pr_flex.asp
+2] https://www.w3schools.com/css/css3_flexbox.asp
+3] https://css-tricks.com/snippets/css/a-guide-to-flexbox/#:~:text=Buy%20Poster-,Background,the%20word%20%E2%80%9Cflex%E2%80%9D).
